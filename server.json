@@ -1,8 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "name": "io.github.tendrils-io/tendrils-mcp",
-  "description": "Commerce tools for AI agents - catalog search, product detail, live inventory, product configurator state and enquiry tools from a running retail deployment.",
+  "name": "io.tendrils/mcp-server",
+  "title": "Tendrils \u00e2\u20ac\u201d live commerce tools for AI agents",
+  "description": "Live commerce tools for agents on a 42k-product furniture catalog.",
   "version": "1.0.0",
+  "websiteUrl": "https://tendrils.io",
+  "repository": {
+    "url": "https://github.com/tendrils-io/tendrils-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
